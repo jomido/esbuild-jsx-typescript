@@ -1,4 +1,5 @@
 import leData from './data/default.json'
+import { render } from 'preact'
 
 const fetchData = async (filename: string) => {
   const headers = {
@@ -23,11 +24,17 @@ fetchData('default').then((data) => {
 const App = () => {
   return (
     <>
-      <div>hello world</div>
+      <div>
+        hello world
+        <div>
+          hello world
+          <div>
+            hello world<div>hello world</div>
+          </div>
+        </div>
+      </div>
     </>
-  );
-};
+  )
+}
 
-import { render } from 'preact';
-
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'))
