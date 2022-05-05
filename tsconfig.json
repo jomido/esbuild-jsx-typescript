@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    // despite esbuild docs (may4 2022), do this:
+    // https://github.com/preactjs/preact/issues/3180#issuecomment-856198221
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    // esbuild docs (may 4 2022) say to do this, though:
+    // "jsxFactory": "h",
+    // "jsxFragmentFactory": "Fragment",
+    "resolveJsonModule": true
+  }
+}
