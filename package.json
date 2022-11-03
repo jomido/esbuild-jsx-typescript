@@ -13,8 +13,8 @@
   "scripts": {
     "build:watch": ". scripts/build:watch.sh",
     "build": ". scripts/build.sh",
-    "check:format": ". scripts/check:types",
-    "check:lint": ". scripts/check:lint",
+    "check:format": ". scripts/check:format.sh",
+    "check:lint": ". scripts/check:lint.sh",
     "check:types": ". scripts/check:types.sh"
   }
 }

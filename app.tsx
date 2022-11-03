@@ -9,8 +9,6 @@ const fetchData = async (filename: string) => {
   return await fetch(`/data/${filename}.json`, { headers })
 }
 
-console.log('huh')
-
 fetchData('default').then((data) => {
   console.log(data)
   console.log(leData)
